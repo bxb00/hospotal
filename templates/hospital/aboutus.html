@@ -19,20 +19,115 @@
     .alert {
       margin: 0px;
     }
+
+    * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; width: 250px;border: 1px solid black;
+
+}
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #pp  {text-align: left;}
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+
   </style>
-  <title>sumit</title>
+  <title>Milad's Resume</title>
 </head>
 
 <body>
   {% include "hospital/navbar.html" %}
-  <br><br>
-  <center>
-    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
-  </center>
-  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
-    <h1 class="display-4">Hello</h1>
-    <p class="lead">A service dedicated to Hospital Admin, Doctor and Patient.</p>
-    <hr class="my-4">
+<br><br><br><br>
+  <div id="page-wrap">
+
+        <div id="contact-info" class="vcard">
+
+            <!-- Microformats! -->
+
+            <h1 class="fn">Milad Nouri</h1>
+
+            <p id="pp">
+                Cell: <span class="tel">9178810075</span><br />
+                Email: <a class="email" href="mailto:milad.nouri0075@gmail.com">milad.nouri0075@gmail.com</a>
+            </p>
+        </div>
+
+        <div id="objective">
+            <p>I am a network and cloud engineer who specializes in software-defined networking (SDN) and network function virtualization (NFV). I hold a degree in network engineering and have extensive knowledge in designing, implementing, and troubleshooting network infrastructure in various environments.</p>
+    <p>My expertise lies in implementing and managing virtualized network functions using NFV technologies. My work on several projects involved implementing virtualized network functions for service providers and enterprise networks. My experience in SDN and NFV has allowed me to design and deploy network infrastructure that is flexible, scalable, and cost-effective.</p>
+    <p>I am also skilled in network automation, scripting, and programming languages such as Python, which has helped me to automate network operations and optimize network performance. My understanding of cloud computing, particularly public and private cloud environments, has allowed me to design and deploy network infrastructure that is compatible with cloud-based services.</p>
+    <p>Overall, I am an experienced network and cloud engineer who specializes in SDN and NFV technologies. My expertise in these areas has enabled me to design and deploy flexible, scalable, and cost-effective network infrastructure that meets the evolving needs of service providers and enterprise networks.</p>
+        </div>
+
+        <div class="clear"></div>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>Education</dt>
+            <dd>
+                <h2>Razi University - Kermanshah, Iran</h2>
+                <p><strong>bachelor's degree:</strong> Computer Engineer<br />
+                   <strong>Major:</strong> Network Engineer</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Skills</dt>
+            <dd>
+                <h2>field of skill</h2>
+                <p>Network design,Network implementation,SDN & NFV,Cloud Computing(OpenStack),Back-End(Django-Fast API), database designer</p>
+
+                <h2>Interested</h2>
+                <p>NFV design and implementation by Docker Swarm and OpenStack, Neutron Network(CNN, GAN)</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Experience</dt>
+            <dd>
+                <h2>Network Desiger<span>Network Admin/TEHRAN - 2019-2020</span></h2>
+                <ul>
+                    <li>Desing and config Network</li>
+                    <li>Helped developers to manage and configure there services</li>
+                    <li>transfer services to NFV</li>
+                </ul>
+
+                <h2>Software Developer<span>Back-End(django)/TEHRAN - 2020-2022</span></h2>
+                <ul>
+                    <li>Worked on websites as backend developer</li> (django-fast api-grpc)</li>
+                    <li>designing database</li>
+                    <li>deploy and automation with docker and ansible</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Hobbies</dt>
+            <dd>Reading Mysteries book, Watching Movies , Playing Basketball, Playing Playing</dd>
+
+            <dd class="clear"></dd>
+
+            <dt>References</dt>
+            <dd><a href="https://www.linkedin.com/in/milad-nouri-b369aa1a9">Milad's LinkedIn</a></dd>
+
+            <dd class="clear"></dd>
+        </dl>
+
+        <div class="clear"></div>
+
+    </div>
+  <div>
     <p>Explore our Website.</p>
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
